@@ -1,0 +1,11 @@
+SCRIPTING:
+int a = 9
+nr = ""
+for(i = 0; i < 7; i++)
+{
+ random = new Random()
+ randomInteger= random.nextInt(a)
+ nr = nr + randomInteger
+}
+log.info nr
+return nr
